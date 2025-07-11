@@ -1,0 +1,25 @@
+--data_path 
+--model_name 
+--dataset kitti
+--eval_split eigen
+--backbone resnet_lite
+--height 192
+--width 640
+--batch_size 8
+--num_epochs 30
+--scheduler_step_size 15
+--num_features 256
+--model_dim 32
+--patch_size 16
+--dim_out 64
+--query_nums 64
+--diff_lr
+--min_depth 0.001
+--max_depth 80.0
+--load_weights_folder 
+--use_stereo
+--eval_mono
+--post_process
+
+
+
